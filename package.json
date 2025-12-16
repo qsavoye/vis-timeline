@@ -207,7 +207,7 @@
     "contributors:update": "git-authors-cli",
     "preparepublish": "npm run contributors:update",
     "prepublishOnly": "npm run contributors:update && npm run build",
-    "prepare": "husky"
+    "prepare": "husky && npm run build"
   },
   "lint-staged": {
     "*.{css,html,json,md,yml,yaml}": "prettier --write",

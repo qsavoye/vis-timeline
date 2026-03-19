@@ -3,8 +3,7 @@
   "version": "8.5.1",
   "description": "Create a fully customizable, interactive timeline with items and ranges.",
   "license": "(Apache-2.0 OR MIT)",
-  "keywords": [
-  ],
+  "keywords": [],
   "browser": "./peer/umd/vis-timeline-graph2d.min.cjs",
   "jsnext": "./esnext/esm/vis-timeline-graph2d.mjs",
   "main": "./peer/umd/vis-timeline-graph2d.cjs",
@@ -190,8 +189,7 @@
     "lint-fix": "eslint --fix .",
     "clean": "shx rm -rf \"{dist,esnext,peer,standalone,styles}/*\"",
     "contributors:update": "git-authors-cli",
-    "preparepublish": "npm run contributors:update",
-    "prepublishOnly": "npm run contributors:update && npm run build",
+    "prepublishOnly": "npm run build",
     "prepare": "npm run clean && npm run build"
   },
   "lint-staged": {
@@ -249,6 +247,5 @@
     "vis-util": "6.0.0",
     "xss": "1.0.15"
   },
-  "contributors": [
-  ]
+  "contributors": [  ]
 }

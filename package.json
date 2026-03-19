@@ -207,9 +207,9 @@
     ]
   },
   "volta": {
-    "node": "24.12.0",
-    "npm": "11.7.0",
-    "pnpm": "10.26.0"
+    "node": "24.14.0",
+    "npm": "11.12.0",
+    "pnpm": "10.32.1"
   },
   "peerDependencies": {
     "@egjs/hammerjs": "^2.0.0",
@@ -229,18 +229,18 @@
     "cpy-cli": "6.0.0",
     "eslint": "8.57.1",
     "gh-pages": "6.3.0",
-    "git-authors-cli": "1.0.52",
+    "git-authors-cli": "1.0.53",
     "husky": "9.1.7",
     "jsdoc": "3.6.11",
     "jsdom": "26.1.0",
     "jsdom-global": "3.0.2",
     "keycharm": "0.4.0",
-    "lint-staged": "16.2.7",
+    "lint-staged": "16.4.0",
     "mocha": "11.7.5",
     "moment": "2.30.1",
     "nyc": "17.1.0",
     "propagating-hammerjs": "3.0.0",
-    "semantic-release": "25.0.2",
+    "semantic-release": "25.0.3",
     "shx": "0.4.0",
     "snap-shot-it": "7.9.10",
     "uuid": "13.0.0",
